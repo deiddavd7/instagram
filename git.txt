@@ -1,0 +1,47 @@
+GIT distribuited control system (distriubuito)
+SISTEMA DI VERSIONAMENTO mi permette di trovare traccia
+del progetto
+DISTRIBUITO perchè mi permetet di lavorare in team 
+ognuno ha la copia del progetto con le varie versioni
+
+git config --global user.name "Vincenzo Deidda"
+git config --global user.email "deiddavincenzo07@gmail.com"
+
+PARTOLE CHIAVE
+REPOSITORY è una struttura dati un modo per salvare dati
+    formata da un insieme di FILE e DIRECTORY
+    una REPOSITORY è formata da uno o più BRENCH
+    un BRENCH è una linea di sviluppo nel tempo 
+    un BRENCH è formato da uno o più COMMIT
+    COMMIT è un istantanea del progetto 
+
+
+PROCEDURA PER NUOVO PROGETTO 
+
+mi sposto all'interno della cartella del nuovo progetto
+CREO UNA REPOSITORY git init SI FA ALL'INIZIO DI OGNI NUOVO progetto
+
+in automatico si crea un BRANCH che viene chiamto MASTER
+
+apro VS CODE 
+
+inizio a scrivere codice
+
+per GIT  WORKING DIRECTORY (CARTELLA DI LAVORO)
+
+prima di creare il COMMIT voglio fare un anteprima 
+STAGING AREA è una sorta di anteprima una prewiev
+
+comando GIT STATUS serve per analizzare la STAGING AREA per vedere quali file sono inclusi
+
+AGGIUNGERE FILE ALL AREA DI STAGING copmando GIT ADD NOMEFILE 
+GIT ADD . = aggiunge tutti i file del progetto all'area di STAGING
+
+
+
+
+
+PER CREARE UN COMMIT
+
+
+
